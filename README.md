@@ -24,3 +24,5 @@ Modelling:
 - ARIMA -> used the package pmdarima; final score 6.26
 - Transformer Based Model -> used pytorch-forecasting ; final score -> 0.77
 
+
+Result: for time series, gradient boosting trees present better results compared to other methods in terms of evaluation as well as evaluation time. This is also collaborated with research data on time series modelling. LightGBM is also much faster thatn XGBoost. Additionally, while transformer or other deep learning methods might be better, at present they are not time efficient.
