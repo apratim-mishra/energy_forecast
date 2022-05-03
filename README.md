@@ -17,7 +17,7 @@ Feature engineering methods:
 - using lag values as well along with features
 - normalizing time features such as month, week and day to a sin/cos feature 
 
-Final task is evaluating on the holdout 12th month of the year
+Final task is evaluating on the holdout 12th month of the year with the first 11 months used for training and validation
 
 Modelling: 
 - LightGBM -> using cross validation and evaluated feature imporatance -> 0.57 score when using lag values
