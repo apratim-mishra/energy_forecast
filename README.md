@@ -25,4 +25,4 @@ Modelling:
 - Transformer Based Model -> used pytorch-forecasting ; final score -> 0.77
 
 
-Result: for time series, gradient boosting trees present better results compared to other methods in terms of evaluation as well as evaluation time. This is also collaborated with research data on time series modelling. LightGBM is also much faster thatn XGBoost. Additionally, while transformer or other deep learning methods might be better, at present they are not time efficient.
+Result: for time series, gradient boosting trees present better results compared to other methods in terms of evaluation as well as evaluation time. This is also collaborated with research data on time series modelling. LightGBM is also much faster thatn XGBoost. Additionally, while transformer or other deep learning methods might be better, at present they are not time efficient. The transformer model used is with the lowest number of parameters; results might be better with additional training time
