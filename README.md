@@ -1,5 +1,5 @@
 # energy_forecast
-task: ashrae energy forecasting
+task: energy forecasting
 
 Data from https://www.kaggle.com/c/ashrae-energy-prediction. 
 
