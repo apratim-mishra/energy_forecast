@@ -9,7 +9,7 @@ Additional data present is weather data (e.g. temperature, wind speed, etc)  as 
 
 Preprocessing includes imputing missing data as well as removing outliers/anomalies that affect overall label value or trends in the case of time series forecasting. In our case, this would amount to figuring out anomalies in building data or site data or meter data or weather data that has a major effect in overall trend for our label.
 
-Final modelling is done on a subset of the dataset post processing and evaluated on RMSLE.
+Final modelling is done on a subset of the dataset and evaluated on RMSLE.
 
 Feature engineering methods:
 - removing some features and evaluating models
@@ -25,4 +25,6 @@ Modelling:
 - Transformer Based Model -> used pytorch-forecasting ; final score -> 0.77
 
 
-Result: for time series, gradient boosting trees present better results compared to other methods in terms of evaluation as well as evaluation time. This is also collaborated with research data on time series modelling. LightGBM is also much faster thatn XGBoost. Additionally, while transformer or other deep learning methods might be better, at present they are not time efficient. The transformer model used is with the lowest number of parameters; results might be better with additional training time
+Result: for time series, gradient boosting trees present better results compared to other methods in terms of evaluation as well as evaluation time. This is also collaborated with research data on time series modelling. LightGBM is also much faster thatn XGBoost due to leaf-wise growth. 
+Additionally, while transformer or other deep learning methods might be better, they may not be efficient for small case scenarios. 
+The transformer model used is with base parameters; results might be better with additional training time
