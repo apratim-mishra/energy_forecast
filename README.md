@@ -26,5 +26,7 @@ Modelling:
 
 
 Result: for time series, gradient boosting trees present better results compared to other methods in terms of evaluation as well as evaluation time. This is also collaborated with research data on time series modelling. LightGBM is also much faster thatn XGBoost due to leaf-wise growth. 
+
 Additionally, while transformer or other deep learning methods might be better, they may not be efficient for small case scenarios. 
+
 The transformer model used is with base parameters; results might be better with additional training time
